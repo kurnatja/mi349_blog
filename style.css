@@ -33,7 +33,7 @@ p {
 }
 
 a[href] {
-    color: red;
+    color: yellow;
 }
 
 table {
@@ -46,4 +46,33 @@ nav {
 
 th {
     color: red
+}
+
+figure {
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-left: 10px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+header {
+    color: white;
+    background: rgb(117, 59, 117);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+#blog-1 {
+    display: flex;
+}
+
+.about-article {
+    background: rgb(105, 161, 163);
+    padding: 20px;
+    margin: 20px;
 }
