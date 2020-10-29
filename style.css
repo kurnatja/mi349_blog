@@ -20,7 +20,7 @@ p {
     line-height: 1.4em;
 }
 
-#blog-1 {
+#blog {
     border-top: 1px dotted #ccc;
 }
 
@@ -53,6 +53,10 @@ figure {
     width: 300px;
     float: right;
     margin-left: 10px;
+}
+
+figcaption {
+    margin-left: 50px;
 }
 
 figcaption {
